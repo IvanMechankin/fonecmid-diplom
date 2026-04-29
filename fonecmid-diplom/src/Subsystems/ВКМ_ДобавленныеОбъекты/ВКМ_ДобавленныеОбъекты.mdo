@@ -10,4 +10,5 @@
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>Catalog.ДоговорыКонтрагентов</content>
   <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
 </mdclass:Subsystem>
