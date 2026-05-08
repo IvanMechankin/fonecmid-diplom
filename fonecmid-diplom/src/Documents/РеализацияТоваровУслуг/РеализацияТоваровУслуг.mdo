@@ -404,6 +404,13 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="e6194e33-cde8-4e90-bd7e-27a4304eee3e">
+    <name>ПФ_MXL_Акт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт</value>
+    </synonym>
+  </templates>
   <commands uuid="26bdda90-7bd2-430f-b90d-4a3e4683b00f">
     <name>ВКМ_Заполнить</name>
     <synonym>
