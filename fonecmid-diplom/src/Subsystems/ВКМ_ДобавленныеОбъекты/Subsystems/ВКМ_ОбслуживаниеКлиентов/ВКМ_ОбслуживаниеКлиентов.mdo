@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb472808-2c79-4287-9c7d-63d646552617">
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aff94fc0-d0b9-405c-82ca-f4f33d08402e">
   <name>ВКМ_ОбслуживаниеКлиентов</name>
   <synonym>
     <key>ru</key>
@@ -11,4 +11,5 @@
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <content>DataProcessor.ВКМ_КалендарьСпециалистов</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
 </mdclass:Subsystem>
