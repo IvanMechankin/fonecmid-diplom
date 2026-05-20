@@ -411,16 +411,4 @@
       <value>Акт</value>
     </synonym>
   </templates>
-  <commands uuid="26bdda90-7bd2-430f-b90d-4a3e4683b00f">
-    <name>ВКМ_Заполнить</name>
-    <synonym>
-      <key>ru</key>
-      <value>Заполнить</value>
-    </synonym>
-    <group>FormCommandBarImportant</group>
-    <commandParameterType>
-      <types>DocumentRef.РеализацияТоваровУслуг</types>
-    </commandParameterType>
-    <representation>Auto</representation>
-  </commands>
 </mdclass:Document>
