@@ -689,7 +689,7 @@
     <navigationPanel/>
     <commandBar>
       <cmiFragmentRecord>
-        <command>Document.РеализацияТоваровУслуг.Command.ВКМ_Заполнить</command>
+        <command>0</command>
         <group>FormCommandBarImportant</group>
         <index>0</index>
         <userVisible/>
