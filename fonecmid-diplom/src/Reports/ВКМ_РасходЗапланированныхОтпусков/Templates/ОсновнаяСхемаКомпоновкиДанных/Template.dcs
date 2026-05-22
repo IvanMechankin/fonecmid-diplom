@@ -43,8 +43,7 @@
 	ВКМ_ДниОтпускаОбороты.ДниОборот КАК ДниОборот,
 	0 КАК ОтработаноДней
 ИЗ
-	РегистрНакопления.ВКМ_ДниОтпуска.Обороты(&amp;НачалоПериода, &amp;КонецПериода,, ВидРасчета = &amp;ВидРасчета) КАК
-		ВКМ_ДниОтпускаОбороты
+	РегистрНакопления.ВКМ_ДниОтпуска.Обороты(&amp;НачалоПериода, &amp;КонецПериода, , ВидРасчета = &amp;ВидРасчета) КАК ВКМ_ДниОтпускаОбороты
 
 ОБЪЕДИНИТЬ ВСЕ
 
@@ -146,9 +145,9 @@
 			</v8:item>
 		</title>
 		<valueType>
-			<v8:TypeId>3347d626-14bb-4a13-bc52-2a4b43232308</v8:TypeId>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:ChartOfCalculationTypesRef.ВКМ_ОсновныеНачисления</v8:Type>
 		</valueType>
-		<value xsi:type="dcscor:DesignTimeValue">ПланВидовРасчета.ВКМ_ОсновныеНачисления.Отпуск</value>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
 	</parameter>
 	<settingsVariant>
