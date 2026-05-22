@@ -21,10 +21,6 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Номенклатура</dataPath>
-			<field>Номенклатура</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>СуммаКУплате</dataPath>
 			<field>СуммаКУплате</field>
 			<title xsi:type="v8:LocalStringType">
