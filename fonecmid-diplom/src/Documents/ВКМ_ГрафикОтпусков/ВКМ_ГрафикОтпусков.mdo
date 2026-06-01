@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9610624b-2a2e-4c56-aed4-14253451bed9">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e772fac-299f-43e4-9975-75e65c47b40d">
   <producedTypes>
-    <objectType typeId="893220bc-18a0-4c66-9d11-68a04e466d86" valueTypeId="2eacb628-9ae4-4436-bcd6-fd9102014d01"/>
-    <refType typeId="06833cec-f8b5-40a1-82d1-e3d2fb333700" valueTypeId="e4de616b-069a-4b99-bd74-f62a34db6c8f"/>
-    <selectionType typeId="8181180c-fad4-4df7-a3ac-9c367810e06c" valueTypeId="b55618e0-b717-4e9d-84eb-fc40c28eda87"/>
-    <listType typeId="c26b118f-05b4-4858-89bf-a8ddf6a5f28f" valueTypeId="7fa378a5-ac80-4db4-b834-4c7ae7160fc5"/>
-    <managerType typeId="25c85ff1-d49a-43a2-9890-3777b6210025" valueTypeId="278745c8-ce99-4581-9548-2ca56d791936"/>
+    <objectType typeId="ae345f0e-c99b-46cd-b0f5-b5bf7a2aa620" valueTypeId="f39f61e1-b1d4-4d55-894d-d31ea533068f"/>
+    <refType typeId="eb33040a-9162-4160-8f55-9f7b4f0ac484" valueTypeId="0fb05614-8eda-4d3d-8310-68f8935c9a1a"/>
+    <selectionType typeId="6c275901-3cb7-463c-a678-a777b75c3045" valueTypeId="318c64f4-45d9-4bc5-8618-9d74e805e801"/>
+    <listType typeId="3de7290d-cfb8-4a4d-9685-be877414b37c" valueTypeId="0947b2d1-277a-4a30-9523-ec776fcf5a32"/>
+    <managerType typeId="82a6d0f4-b317-4027-85fa-e68911bf1a7a" valueTypeId="36823609-1336-4b7c-a836-e0952f9dc7c5"/>
   </producedTypes>
   <name>ВКМ_ГрафикОтпусков</name>
   <synonym>
@@ -68,7 +68,7 @@
   <registerRecords>AccumulationRegister.ВКМ_ДниОтпуска</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="cd6a364d-2356-46d2-ad38-d7dc510f8470">
+  <attributes uuid="fab4881b-353b-4183-bcf2-5729edf676fb">
     <name>Год</name>
     <synonym>
       <key>ru</key>
@@ -86,7 +86,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="95528c5f-380c-4de9-9fd4-e1285abe6add">
+  <forms uuid="74a63fc5-c42d-46d7-b55a-b5618486bf3e">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -95,7 +95,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="ddca9543-357a-47eb-bfe1-6c130ec58ac1">
+  <forms uuid="ede80e31-5f0b-4e6a-9dff-b980e0b0f903">
     <name>АнализГрафика</name>
     <synonym>
       <key>ru</key>
@@ -104,10 +104,10 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="d902fe52-48ae-41e2-add7-d182c545d5c8">
+  <tabularSections uuid="271aef58-e2e7-412a-bd47-b3b843965689">
     <producedTypes>
-      <objectType typeId="605f5c82-db21-4961-bb88-50f704063b4e" valueTypeId="fc5e721b-df87-4218-a287-35aac043ad3e"/>
-      <rowType typeId="9ef79f61-6fb8-4c3a-b270-d46b9e381218" valueTypeId="42d8ba36-0682-43c3-9ada-133d73e14ad6"/>
+      <objectType typeId="5a290eb8-e48e-44ab-8d98-14ec40592462" valueTypeId="549b8fda-cd17-42cb-98e0-8c9df62e0c0e"/>
+      <rowType typeId="19a77690-b822-450d-b121-2e9c0f3288fb" valueTypeId="e6e6b44a-a9a9-4953-93c3-5ec7fc16f9c6"/>
     </producedTypes>
     <name>ОтпускаСотрудников</name>
     <synonym>
@@ -122,7 +122,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="2a9e5f76-1dfa-4d78-88c5-c5cea31cf8c7">
+    <attributes uuid="3f92576a-7b70-414a-a390-52212cd10851">
       <name>ДатаНачала</name>
       <synonym>
         <key>ru</key>
@@ -139,7 +139,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="00bab2a6-ca31-4a5c-8a22-68c293f0c831">
+    <attributes uuid="34e3cfe8-5a4c-474f-bdc5-2416de458694">
       <name>ДатаОкончания</name>
       <synonym>
         <key>ru</key>
@@ -156,7 +156,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="0d739ba5-14fb-48e8-991c-6f8cbdea47c5">
+    <attributes uuid="f7a5aa58-fe2c-4a1e-be41-65002b336dd9">
       <name>Сотрудник</name>
       <synonym>
         <key>ru</key>

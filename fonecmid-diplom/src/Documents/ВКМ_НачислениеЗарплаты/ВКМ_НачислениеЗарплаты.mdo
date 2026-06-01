@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d09a8b2-f4b3-4a8a-a2ca-944c5f20e526">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee61533a-0b4a-43e6-9bf3-9642fbb2189e">
   <producedTypes>
-    <objectType typeId="ce66f184-b548-420f-bc3d-71983a6f34c2" valueTypeId="d46e4718-d507-4f02-9aef-9f2eed085c6d"/>
-    <refType typeId="ad32edd6-74de-44de-b65e-e18eeb56ea1b" valueTypeId="10dab020-241f-4b03-8b47-5b5c83013de5"/>
-    <selectionType typeId="069850b2-6c02-46a5-99bf-829a096bc5e1" valueTypeId="30c22dbf-820b-44fa-b1bf-d4e75dc9ab68"/>
-    <listType typeId="9c720558-6a52-4606-be4d-dbd42c17c055" valueTypeId="635279c5-4bd4-4c0d-8b20-5c931cfceb74"/>
-    <managerType typeId="5c9107e8-e849-45c8-93eb-fbab1245c3d3" valueTypeId="c32a38f6-22a4-4525-abc0-61a51154f3bb"/>
+    <objectType typeId="6b6fbda3-5e7f-4abf-9ff5-309b82829a6f" valueTypeId="1123b586-5100-45c8-8bc4-bf6174ad935d"/>
+    <refType typeId="b15592d5-90d8-44cd-a6f2-92080049cdb6" valueTypeId="c3afaa7c-d98d-47e6-8278-b449a8e894d1"/>
+    <selectionType typeId="fc6e3a89-5a52-41f6-ad89-0456f9b6f352" valueTypeId="e1e9f5b2-5e07-4c06-991d-aacabcfca6bc"/>
+    <listType typeId="e2f2ec94-4bc1-4c27-af36-ce6ef0d5fae6" valueTypeId="beaa9f6f-41a3-4807-92e4-52c95452a9f0"/>
+    <managerType typeId="a88df6d3-d4d8-4612-be8d-aa3cbd412b33" valueTypeId="a0a3c722-33fc-490a-957e-10b320b10963"/>
   </producedTypes>
   <name>ВКМ_НачислениеЗарплаты</name>
   <synonym>
@@ -68,19 +68,17 @@
   <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
   <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
   <registerRecords>CalculationRegister.ВКМ_ОсновныеНачисления</registerRecords>
+  <registerRecords>AccumulationRegister.ВКМ_ДниОтпуска</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="c5885880-a551-4b50-8e18-9b4625b4c12e">
+  <attributes uuid="cad08790-3026-43d9-b11b-87e5795751e8">
     <name>Подразделение</name>
     <synonym>
       <key>ru</key>
       <value>Подразделение</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>CatalogRef.ВКМ_Подразделения</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -88,10 +86,10 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="cf35d1c5-e4e1-48b2-bceb-5b1c79b1a0b7">
+  <tabularSections uuid="66d6f971-368e-4848-ae63-da664a9f25ea">
     <producedTypes>
-      <objectType typeId="1d81774b-a767-4917-b743-865a59f19147" valueTypeId="4e14aa23-25b3-4e05-9aab-364775f1ab96"/>
-      <rowType typeId="def62305-1162-4fb0-8f00-dc64a1f9d69f" valueTypeId="4758fd7d-14fb-440c-bf55-421efe89bd0a"/>
+      <objectType typeId="3b23060f-e339-45af-a606-5f6cb662412b" valueTypeId="1295841a-2781-4916-a1a5-30e27afe4162"/>
+      <rowType typeId="782868e5-8da7-485b-9eb7-2cf6d48f338e" valueTypeId="cdb82ccd-07a4-44fb-b30f-c5c7a644efd7"/>
     </producedTypes>
     <name>Начисления</name>
     <synonym>
@@ -106,7 +104,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="1758d188-4829-4779-8ea2-c4d14c073221">
+    <attributes uuid="1bcb867d-e668-4371-8261-008db029cbec">
       <name>Сотрудник</name>
       <synonym>
         <key>ru</key>
@@ -120,7 +118,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="9a202d76-57d8-4f61-b375-e33eba7cd7c5">
+    <attributes uuid="2f71facb-7fc3-472b-9fc3-86ed4dfd9fc9">
       <name>ВидРасчета</name>
       <synonym>
         <key>ru</key>
@@ -134,7 +132,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="c2c38b69-e799-4c2d-91d8-c0c2e11d1594">
+    <attributes uuid="38a89e37-2d7f-44b8-9b21-129ed739de38">
       <name>ДатаНачала</name>
       <synonym>
         <key>ru</key>
@@ -151,7 +149,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="12da0a69-f145-4b57-921d-32b365a29549">
+    <attributes uuid="50c9c06d-6e2b-457e-aaf7-f2b01b0d8c7c">
       <name>ДатаОкончания</name>
       <synonym>
         <key>ru</key>
@@ -168,17 +166,14 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="d631f136-c928-4276-8a12-e354748ac641">
+    <attributes uuid="9f9c6151-97ee-41e7-8414-4eba7ffee948">
       <name>ГрафикРаботы</name>
       <synonym>
         <key>ru</key>
         <value>График работы</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>10</length>
-        </stringQualifiers>
+        <types>CatalogRef.ВКМ_ГрафикиРаботы</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

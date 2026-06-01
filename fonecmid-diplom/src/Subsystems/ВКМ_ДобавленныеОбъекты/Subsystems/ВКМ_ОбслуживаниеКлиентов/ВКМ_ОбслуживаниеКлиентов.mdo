@@ -16,12 +16,14 @@
   <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
   <content>CalculationRegister.ВКМ_Удержания</content>
   <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
-  <content>Document.ВКМ_НачислениеЗарплаты</content>
   <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
   <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
-  <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>Catalog.ВКМ_ГрафикиРаботы</content>
+  <content>Role.ВКМ_ОбслуживаниеКлиентов</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
+  <content>Document.ВКМ_НачислениеЗарплаты</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
   <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
 </mdclass:Subsystem>
