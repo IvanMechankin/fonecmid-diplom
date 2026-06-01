@@ -6,6 +6,10 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Document.ВКМ_ГрафикОтпусков.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Catalog.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
@@ -19,6 +23,10 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.ВКМ_НачислениеЗарплаты.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
